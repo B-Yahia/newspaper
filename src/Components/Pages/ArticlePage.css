@@ -1,0 +1,43 @@
+.card-article{
+    padding: 10px;
+    width: 99%;
+    margin: 0 5px;
+}
+.part-article{
+    font-size: large;
+    margin: 5px;
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 5%;
+    width: 99%;
+}
+.sub-part-article{
+    font-size: small;
+    border-radius: 5%;
+    width: 99%;
+    background-color: whitesmoke;
+    margin: 3px;
+}
+
+.container-card{
+    margin: auto;
+    padding: 10px;
+    border: 3px solid grey;
+    justify-content: center;
+    align-items: center; 
+    min-height: 85vh;
+    background-color: whitesmoke;
+    
+}
+.row{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.ttl{
+    font-weight: bolder;
+    font-size:xx-large;
+    background-color: whitesmoke;
+    width: 99%;
+}
