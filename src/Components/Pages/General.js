@@ -80,10 +80,11 @@ function General (props){
                     <Button href={apiArticle.url} size="small" color="primary">
                     Link
                     </Button>
+                    <Button  size="small" color="primary">
                     <Link to={{pathname : `general/${index}`, state: {article :apiArticle}}} > 
                     View article
                     </Link>
-
+                    </Button>
                 </CardActions>
             </Card>
             </Grid> 
@@ -91,7 +92,7 @@ function General (props){
     })
 
     return(
-        <Grid container  className="container-card" >
+        <Grid container   className="container-card" >
             {theMapping}
         </Grid>
     )
