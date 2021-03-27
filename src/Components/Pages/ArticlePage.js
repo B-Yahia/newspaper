@@ -33,7 +33,7 @@ class ArticlePage extends React.Component {
                         <Grid items xs={6} lg={4} xl={4}>
 
                         { article.article.author!== null ? (<div className="sub-part-article"> the Autor : <span className="sub-part-article"> {article.article.author}</span></div>)
-                        :(<div className="sub-part-article"> Autor name is not availble </div>)}
+                        :(<div className="sub-part-article">   Autor name is not availble </div>)}
                         </Grid>
                         <Grid items xs={6} lg={4} xl={4}>
                         { article.article.publishedAt!== null ? (<div className="sub-part-article"> Publication date : <span className="sub-part-article"> {article.article.publishedAt}</span></div>)
