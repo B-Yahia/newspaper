@@ -54,7 +54,7 @@ function General (props){
     
     const theMapping = dataR.map( (apiArticle,index) => {
         return(
-            <Grid key={index} items xs={12} sm={6} md={4} lg={3} xl={2} className="info-card">
+            <Grid key={index} items xs={12} sm={9} md={5} lg={3} xl={2} className="info-card">
             <Card  className={classes.root} > 
              
                 <CardActionArea>

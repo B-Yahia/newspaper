@@ -2,20 +2,14 @@
     margin-bottom:15px;
     padding: 10px 40px;
     border-bottom: 3px solid beige;
-    top: 0px;
-    right: 0px;
-    left: 0px;
     z-index: 2;
     background-color: rgba(0, 0, 0, 0.7);
-    display: flex;
-}
-.nav-menu{
-    display: flex;
-    justify-content: center;
+    
 }
 
+
 .lg{
-    margin-right: 60px;
+    
     color: beige;
     font-weight: bolder;
     font-size: 2em;
