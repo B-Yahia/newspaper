@@ -81,7 +81,7 @@ function Health (props){
                         Link
                         </Button>
                         <Button  size="small" color="primary">
-                        <Link to={{pathname : `4/${index}`, state: {article :apiArticle}}} > 
+                        <Link to={{pathname : `health/${index}`, state: {article :apiArticle}}} > 
                         View article
                         </Link>
                         </Button>

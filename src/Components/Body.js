@@ -16,10 +16,10 @@ function Body (props){
             <Router>
                 <Switch>
                     <Route path="/" exact component={General} />
-                    <Route path="/Health" component={Health} />
-                    <Route path="/sport" component={Sport} />
-                    <Route path="/Science" component={Science} />
-                    <Route path="/technology" component={Technology} />
+                    <Route path="/Health" exact component={Health} />
+                    <Route path="/sport" exact component={Sport} />
+                    <Route path="/Science" exact component={Science} />
+                    <Route path="/technology" exact component={Technology} />
                     <Route path="/:id" component={ArticlePage} />
                     
                 </Switch>

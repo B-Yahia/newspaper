@@ -80,7 +80,7 @@ function Sport (props){
                         Link
                         </Button>
                         <Button  size="small" color="primary">
-                        <Link to={{pathname : `1/${index}`, state: {article :apiArticle}}} > 
+                        <Link to={{pathname : `sport/${index}`, state: {article :apiArticle}}} > 
                         View article
                         </Link>
                         </Button>

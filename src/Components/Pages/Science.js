@@ -80,7 +80,7 @@ function Science (props){
                         Link
                         </Button>
                         <Button  size="small" color="primary">
-                        <Link to={{pathname : `2/${index}`, state: {article :apiArticle}}} > 
+                        <Link to={{pathname : `science/${index}`, state: {article :apiArticle}}} > 
                         View article
                         </Link>
                         </Button>
