@@ -12,7 +12,7 @@ import "./Body.css"
 function Body (props){
 
     return(
-        <div className="bbb">
+        <div >
             <Router>
                 <Switch>
                     <Route path="/" exact component={General} />

@@ -53,7 +53,7 @@ function Science (props){
     
           const theMapping = dataR.map( (apiArticle,index) => {
             return(
-                <Grid key={index} items xs={12} sm={12} md={5} lg={3} xl={2} className="info-card">
+                <Grid key={index} item xs={12} sm={5} md={4} lg={3} xl={2} className="info-card">
                 <Card  className={classes.root} > 
                  
                     <CardActionArea>
@@ -80,7 +80,7 @@ function Science (props){
                         Link
                         </Button>
                         <Button  size="small" color="primary">
-                        <Link to={{pathname : `science/${index}`, state: {article :apiArticle}}} > 
+                        <Link to={{pathname : `2/${index}`, state: {article :apiArticle}}} > 
                         View article
                         </Link>
                         </Button>
@@ -91,7 +91,7 @@ function Science (props){
         })
     
         return(
-            <Grid container   className="container-card" >
+            <Grid container spacing={4} className="container-card" >
                 {theMapping}
             </Grid>
         )
