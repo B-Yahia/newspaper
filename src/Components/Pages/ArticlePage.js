@@ -16,13 +16,13 @@ class ArticlePage extends React.Component {
                 { article.article.title!== null ? (<div className=" ttl">{article.article.title}</div>)
                         :(<div className="part-article"> Title not availble</div>)}
                 </Grid>
-                <Grid item xs={12} lg={5} xl={5} className="row">
+                <Grid item xs={12} lg={4} xl={5} className="row">
                     <div className="card-article">
                         { article.article.urlToImage!== null ? (<img className="part-article" src={article.article.urlToImage}/>)
                         :(<div className="part-article"> image not availble </div>)}
                     </div>
                 </Grid>
-                <Grid item xs={12} lg={5} xl={5} className="row">
+                <Grid item xs={12} lg={4} xl={5} className="row">
                     <div className="card-article" >
                     <Grid container >
                     <Grid item xs={12} lg={12} xl={12}>

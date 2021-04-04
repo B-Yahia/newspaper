@@ -26,8 +26,9 @@ function Header (props){
     return(
         <div className="header">
           <Grid container >
-            <Grid item xs={3}><div className="lg">Y-B News</div></Grid>
-            <Grid item xs={9}>
+            <Grid item xs={12} md={2}><div className="lg">Y-B News</div></Grid>
+            <Grid item xs={2}></Grid>
+            <Grid item xs={12} md={8}>
               <Breadcrumbs aria-label="breadcrumb" className="nav-menu">
                   <StyledBreadcrumb component="a"href="/" label="General"/>
                   <StyledBreadcrumb component="a"href="/sport" label="Sport"/>

@@ -13,4 +13,8 @@
     color: beige;
     font-weight: bolder;
     font-size: 2em;
+    border-right: 5px solid beige;
+}
+.nav-menu{
+    padding: 10px;
 }
